@@ -1,0 +1,33 @@
+{
+  "name": "gulp-ejs-filesystem",
+  "version": "0.1.0",
+  "description": "EJS で記事一覧みたいなのを外部ファイル化してループする",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimakyohsuke/gulp-ejs-filesystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shimakyohsuke/gulp-ejs-filesystem/issues"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  },
+  "author": {
+    "name": "shimakyohsuke",
+    "email": "hello@shimakyohsuke.com",
+    "url": "http://shimakyohsuke.com/"
+  },
+  "homepage": "https://github.com/shimakyohsuke/gulp-ejs-filesystem/issues",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^2.1.1",
+    "gulp-plumber": "^1.1.0"
+  }
+}
